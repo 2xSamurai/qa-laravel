@@ -1,3 +1,12 @@
+## For Local development
+php artisan serve --host 0.0.0.0
+then access network.ip:8000 from your other device
+
+
+### To change primary key
+add following line in Model
+protected $primaryKey = 'question_id';
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
